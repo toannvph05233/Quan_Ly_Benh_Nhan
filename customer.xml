@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<customers>
+    <customer>
+        <id>1</id>
+        <name>Nguyễn Phương Thảo</name>
+        <age>20</age>
+        <address>Hà Nội</address>
+        <phone>0123456789</phone>
+        <diagnoses>
+            <id>1</id>
+            <diagnose>Covid 19 Khả nghi</diagnose>
+            <date>2023-04-24T10:13:50.666+07:00</date>
+            <prescriptions>
+                <id>1</id>
+                <name>Covid 19</name>
+                <quantity>200</quantity>
+                <content>uống buổi sáng</content>
+            </prescriptions>
+        </diagnoses>
+        <diagnoses>
+            <id>2</id>
+            <diagnose>Bệnh Lao Phổi</diagnose>
+            <date>2023-04-27T21:52:30.116+07:00</date>
+            <prescriptions>
+                <id>1</id>
+                <name>Kháng sinh 2</name>
+                <quantity>1</quantity>
+                <content>uống trước ăn</content>
+            </prescriptions>
+            <prescriptions>
+                <id>2</id>
+                <name>Tiêm</name>
+                <quantity>12</quantity>
+                <content>Mỗi tuần 1 lần</content>
+            </prescriptions>
+        </diagnoses>
+    </customer>
+    <customer>
+        <id>2</id>
+        <name>Nguyễn Thị Hà</name>
+        <age>22</age>
+        <address>Hà Nội</address>
+        <phone>0123456789</phone>
+        <diagnoses>
+            <id>2</id>
+            <diagnose>Đau đầu</diagnose>
+            <date>2023-04-27T22:04:11.941+07:00</date>
+        </diagnoses>
+        <diagnoses>
+            <id>3</id>
+            <diagnose>Mệt</diagnose>
+            <date>2023-04-27T22:05:18.624+07:00</date>
+        </diagnoses>
+    </customer>
+    <customer>
+        <id>3</id>
+        <name>Nguyễn Văn Nam</name>
+        <age>25</age>
+        <address>Hà Nội</address>
+        <phone>0912345678</phone>
+    </customer>
+</customers>
